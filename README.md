@@ -1,7 +1,7 @@
 # CMPS 2200  Recitation 01
 
-**Name (Team Member 1):**_________________________  
-**Name (Team Member 2):**_________________________
+**Name (Team Member 1):**_Sam Cohen ________________________  
+**Name (Team Member 2):**__Andrew Zimmerman _______________________
 
 In this recitation, we will investigate asymptotic complexity. Additionally, we will get familiar with the various technologies we'll use for collaborative coding.
 
@@ -40,11 +40,13 @@ We'll compare the running times of `linear_search` and `binary_search` empirical
 - [ ] 4. Describe the worst case input value of `key` for `linear_search`? for `binary_search`? 
 
 **TODO: your answer goes here**
-
-- [ ] 5. Describe the best case input value of `key` for `linear_search`? for `binary_search`? 
+The worst case input value of key for linear search is when the element is in the last position of the list or not present at all.
+The worst case input value of key for binary search is when the element is either in the first position, last position, or not present at all.
+- [ ] 5. Describe the best case input value of `key` for `linear_search`? for `binary_search`?
 
 **TODO: your answer goes here**
-
+The best case input value of key for linear search is when the element is in the first position of the list.
+The best case input value of key for binary search is when the element is exactly in the middle position of the list.
 - [ ] 6. Complete the `time_search` function to compute the running time of a search function. Note that this is an example of a "higher order" function, since one of its parameters is another function.
 
 - [ ] 7. Complete the `compare_search` function to compare the running times of linear search and binary search. Confirm the implementation by running `pytest test_main.py::test_compare_search`, which contains some simple checks.
